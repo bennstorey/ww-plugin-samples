@@ -116,6 +116,7 @@
     }
 
     DigitalEditorSdk.onOpenArticle(function (article) {
+        console.log("🟢 Digital editor SDK called");
         new PanelService(article).create();
     });
 })(DigitalEditorSdk);
